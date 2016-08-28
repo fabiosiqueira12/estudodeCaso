@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fabio.atividade1.AcompanhamentoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_cadeira"
+            android:textColor="#222"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/titleAp1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_ap1"
+                android:textColor="#222"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/titleAp2"
+                android:layout_below="@+id/titleAp1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_ap2"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/titleAp3"
+                android:layout_below="@+id/titleAp2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_ap3"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/titleMedia"
+                android:layout_below="@+id/titleAp3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_media"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/titleFaltas"
+                android:layout_below="@+id/titleMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_faltas"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/titleSaldo"
+                android:layout_below="@+id/titleFaltas"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/title_saldo"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"/>
+
+
+
+            <TextView
+                android:id="@+id/notaAp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/titleAp1"
+                android:text="10.0"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/notaAp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/titleAp2"
+                android:layout_below="@id/notaAp1"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/notaAp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/titleAp3"
+                android:layout_below="@id/notaAp2"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/mediaFinal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/titleMedia"
+                android:layout_below="@id/notaAp3"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/numFaltas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/titleFaltas"
+                android:layout_below="@id/mediaFinal"
+                android:text="3"
+                android:layout_marginTop="10dp"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/numSaldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/titleSaldo"
+                android:layout_below="@id/numFaltas"
+                android:text="12"
+                android:layout_marginTop="10dp"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

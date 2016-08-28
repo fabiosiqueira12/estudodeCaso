@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Unifavip</string>
+    <string name="activity_acompanhamento">Acompanhamento</string>
+    <string name="activity_contato">Contato</string>
+    <string name="activity_noticia">Notícias</string>
+
+
+    <string name="botao1">Acompanhamento</string>
+    <string name="botao2">Notícias</string>
+    <string name="botao3">Contato</string>
+
+    <string name="textoContato">Formas de Contato:</string>
+    <string name="botaoTel">Telefone (Tim)</string>
+    <string name="botaoEmail">Email</string>
+
+    <string name="titleGrid"> DeVry Brasil implementa sistema Pergamum em bibliotecas</string>
+    <string name="data_publicacao">Publicado Em 22/08/2016</string>
+    <string name="texto">Nós amamos melhorar e mudar para vocês! Foi pensando nisso que a DeVry Brasil, a partir do dia 29 de agosto, implementará um novo sistema de gerenciamento de acervo em nossas bibliotecas: o Pergamum. Por meio dele, todas as bibliotecas do grupo farão parte de uma rede única e integrada, oferecendo, aos nossos alunos novas funcionalidades e serviços como:
+
+    Padronização das regras de empréstimo;
+    Divulgação de aquisição de livros para grupos de interesse;
+    Levantamento bibliográfico;
+    Solicitação de serviços;
+    Identificação biométrica.
+
+        Para melhorar ainda mais a sua experiência, o acesso ao novo sistema será feito através do Portal Academus. Acesse o Portal, vá até o “Meu Espaço” e clique em “Pergamum”. Outra vantagem é que ele também poderá ser acessado pelo seu smatphone! Faça o seu cadastro biométrico para ter acesso aos benefícios que a biblioteca oferece.
+
+        Essas mudanças fazem parte do processo de contínua melhoria que a DeVry Brasil oferece para alunos, professores e colaboradores. Obrigado pela compreensão e paciência durante a mudança de versão do sistema. Tudo isso foi feito para que você possa aproveitar todas as novas funcionalidades do Pergamum. We love improving for you!
+        Pergamum
+        DeVry | Brasil
+        we love improving for you</string>
+    <string name="mostraMais">Ler Mais</string>
+    <string name="title_cadeira">ESTUDO DE CASO EM DISPOSITIVOS MÓVEIS</string>
+    <string name="title_ap1">AP1:</string>
+    <string name="title_ap2">AP2:</string>
+    <string name="title_ap3">AP3: </string>
+    <string name="title_media">MÉDIA: </string>
+    <string name="title_faltas">FALTAS: </string>
+    <string name="title_saldo">SALDO: </string>
+    
+
+
+</resources>

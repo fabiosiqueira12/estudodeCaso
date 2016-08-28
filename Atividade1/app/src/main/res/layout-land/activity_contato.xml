@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textoContato"
+        android:gravity="center"
+        android:textSize="@dimen/texto_contato_dimen"
+        />
+
+        <Button
+            android:id="@+id/botaoTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/botaoEmail"
+            android:text="@string/botaoTel"/>
+        <Button
+            android:id="@+id/botaoEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/botaoTel"
+            android:text="@string/botaoEmail"/>
+
+
+
+</LinearLayout>
