@@ -17,8 +17,7 @@
 
 
         <include layout="@layout/grid_view"></include>
-        <include layout="@layout/grid_view"></include>
-        <include layout="@layout/grid_view"></include>
+
 
     </LinearLayout>
 
