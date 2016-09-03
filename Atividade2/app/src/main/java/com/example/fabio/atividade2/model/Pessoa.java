@@ -9,15 +9,17 @@ public class Pessoa implements Serializable {
 
     String nome;
     String email;
-    String senha;
+    int idade;
     String sexo;
 
-    public Pessoa(String nome, String email, String senha,String sexo) {
+
+    public Pessoa(String nome, String email, int idade, String sexo) {
         this.nome = nome;
         this.email = email;
-        this.senha = senha;
+        this.idade = idade;
         this.sexo = sexo;
     }
+
 
     public String getNome() {
         return nome;
@@ -35,14 +37,13 @@ public class Pessoa implements Serializable {
         this.email = email;
     }
 
-    public String getSenha() {
-        return senha;
+    public int getIdade() {
+        return idade;
     }
 
-    public void setSenha(String senha) {
-        this.senha = senha;
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
-
 
     public String getSexo() {
         return sexo;
@@ -57,8 +58,10 @@ public class Pessoa implements Serializable {
         return "Pessoa{" +
                 "nome='" + nome + '\'' +
                 ", email='" + email + '\'' +
-                ", senha='" + senha + '\'' +
+                ", idade=" + idade +
                 ", sexo='" + sexo + '\'' +
                 '}';
     }
+
+
 }

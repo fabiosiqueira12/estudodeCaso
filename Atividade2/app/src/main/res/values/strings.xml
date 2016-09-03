@@ -2,8 +2,9 @@
     <string name="app_name">Atividade2</string>
 
     <string name="nome_usuario">Nome</string>
-    <string name="senha_usuario">Senha</string>
+    <string name="idade_usuario">Idade</string>
     <string name="email_usuario">Email</string>
+    <string name="sexo_usuario">Sexo</string>
     <string name="sexo_m">Masculino</string>
     <string name="sexo_f">Feminino</string>
     <string name="button_limpar">Limpar</string>
