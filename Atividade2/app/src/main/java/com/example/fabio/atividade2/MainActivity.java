@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 nomeUsuario.setText("");
                 emailUsuario.setText("");
                 senhaUsuario.setText("");
-
+                radioGroup.clearCheck();
                 break;
 
             case R.id.button_salvar:
@@ -86,6 +86,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 intent.putExtra("pessoa", new Pessoa(nome,email,idade,sexo));
 
                                 startActivity(intent);
+                                nomeUsuario.setText("");
+                                emailUsuario.setText("");
+                                senhaUsuario.setText("");
+                                radioGroup.clearCheck();
 
                                 break;
                             }

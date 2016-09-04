@@ -26,6 +26,10 @@ public class Main2Activity extends AppCompatActivity {
         emailGet = (EditText) findViewById(R.id.email_get);
         idadeGet = (EditText) findViewById(R.id.idade_get);
         sexoGet = (EditText) findViewById(R.id.sexo_get);
+        nomeGet.setEnabled(false);
+        emailGet.setEnabled(false);
+        idadeGet.setEnabled(false);
+        sexoGet.setEnabled(false);
 
 
         Intent intent = getIntent();
