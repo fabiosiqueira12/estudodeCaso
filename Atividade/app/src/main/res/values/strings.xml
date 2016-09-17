@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Atividade</string>
+    <string name="activity_2">Menu</string>
+    <string name="activity_3">Cadastrar Aluno</string>
+    <string name="activity_4">Alunos Cadastrados</string>
+</resources>
